@@ -1,0 +1,36 @@
+import: https://mapzen.com/carto/zinc-style/5/zinc-style.yaml
+
+global:
+  sdk_building_extrude: false
+
+sources:
+  _fsr:
+    type: GeoJSON
+    url: ../data/parcels/parcels_w_attrs.geojson
+
+layers:
+  _new_west_parcel_fsr:
+    data: { source: _fsr }
+    #filter: function() { return feature.BLDGAGE != 0 && feature.BLDGAGE != null; }
+    draw:
+      polygons:
+        color: |
+          function() {
+            var fsr = feature.FSR;
+            var color = fsr < 0.4 ? '#ffffcc'
+                      : fsr < 0.5 ? '#c7e9b4'
+                      : fsr < 0.6 ? '#7fcdbb'
+                      : fsr < 0.7 ? '#41b6c4'
+                      : fsr < 0.8 ? '#1d91c0'
+                      : fsr < 0.9 ? '#225ea8'
+                      : '#0c2c84';
+            return color;
+          }
+        order: global.sdk_order_over_everything_but_text_0
+        interactive: true
+
+      lines:
+        width: [[8, 0.5px], [18, 1px]]
+        color: '#518946'
+        order: global.sdk_order_over_everything_but_text_1
+

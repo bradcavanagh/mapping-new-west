@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <title>New Westminster building age</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="https://mapzen.com/js/mapzen.css">
+      <script src="https://mapzen.com/js/mapzen.min.js"></script>
+      <script src="../js/Config.js"></script>
+      <script src="../js/TangramLayerControl.js"></script>
+      <style>
+        #map {
+          height: 100%;
+          width: 100%;
+          position: absolute;
+        }
+      html,body{margin: 0; padding: 0}
+    </style>
+    </head>
+    <body>
+      <div id="map"></div>
+      <script>
+
+      L.Mapzen.apiKey = Config.apiKey;
+
+      var new_west = [49.2089, -122.9175];
+
+      var map = L.Mapzen.map('map', {
+        center: new_west,
+        zoom: 15,
+        scene: 'scene.yaml'
+      });
+
+      map.zoomControl.setPosition('topright');
+
+      // Mapzen search box
+      const geocoder = L.Mapzen.geocoder('mapzen-LBd8fPf');
+      geocoder.addTo(map);
+
+      // ADD SELECTION EVENTS
+      function onMapClick(selection) {
+        if (selection.feature) {
+          var latlng = selection.leaflet_event.latlng;
+          var props = selection.feature.properties;
+          var age = props.BLDGAGE;
+          var architect = props.ARCHITECT || 'unknown';
+          var developer = props.DEVELOPER || 'unknown';
+          var address = props.STRNUM + ' ' + props.STRNAM;
+          showPopup(latlng, address, age, architect, developer);
+        }
+      }
+
+      function onMapHover(selection) {
+        document.getElementById('map').style.cursor = selection.feature ? 'pointer' : '';
+      }
+
+      function showPopup(latlng, address, age, architect, developer) {
+        popup.setLatLng(latlng)
+        .setContent('<h2>' + address + '</h2><br>Built in: ' + age + '<br>Architect: ' + architect + '<br>Developer: ' + developer)
+        .openOn(map);
+      }
+
+      // Add popups.
+      var popup = L.popup();
+      var scene;
+      map.on('tangramloaded', function(e) {
+        var tangramLayer = e.tangramLayer;
+        scene = tangramLayer.scene;
+
+        tangramLayer.setSelectionEvents({
+          click: onMapClick,
+          hover: onMapHover
+        });
+      });
+
+      var tangramLayers = {
+        "Full city ages": '_new_west_building_age',
+        "Queens Park HCA ages": '_new_west_building_age_qp'
+      };
+      L.control.tangramLayerControl(tangramLayers).addTo(map);
+
+      L.Mapzen.hash({
+        map: map,
+        geocoder: geocoder
+      });
+
+      </script>
+    </body>
+  </html>
