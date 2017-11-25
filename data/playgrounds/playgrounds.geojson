@@ -1,0 +1,32 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "PARK": "Queen's Park", "StructureN": null }, "geometry": { "type": "Point", "coordinates": [ -122.908500975067568, 49.216567684139498 ] } },
+{ "type": "Feature", "properties": { "PARK": "Hume Park", "StructureN": null }, "geometry": { "type": "Point", "coordinates": [ -122.891139659219604, 49.234039582724975 ] } },
+{ "type": "Feature", "properties": { "PARK": "Port Royal Park", "StructureN": null }, "geometry": { "type": "Point", "coordinates": [ -122.923192760359498, 49.194359668397681 ] } },
+{ "type": "Feature", "properties": { "PARK": "Port Royal Park", "StructureN": null }, "geometry": { "type": "Point", "coordinates": [ -122.923275799627433, 49.194204070485654 ] } },
+{ "type": "Feature", "properties": { "PARK": "Ryall Park", "StructureN": null }, "geometry": { "type": "Point", "coordinates": [ -122.941914084843546, 49.185620074553512 ] } },
+{ "type": "Feature", "properties": { "PARK": "Ryall Park", "StructureN": null }, "geometry": { "type": "Point", "coordinates": [ -122.942326805144745, 49.185403223258284 ] } },
+{ "type": "Feature", "properties": { "PARK": "Ryall Park", "StructureN": null }, "geometry": { "type": "Point", "coordinates": [ -122.942922308372246, 49.185367343490604 ] } },
+{ "type": "Feature", "properties": { "PARK": "Ryall Park", "StructureN": null }, "geometry": { "type": "Point", "coordinates": [ -122.942038543513746, 49.185041497386308 ] } },
+{ "type": "Feature", "properties": { "PARK": "West Queensborough Park", "StructureN": null }, "geometry": { "type": "Point", "coordinates": [ -122.956056064274364, 49.177196322683059 ] } },
+{ "type": "Feature", "properties": { "PARK": "Riverside Park", "StructureN": null }, "geometry": { "type": "Point", "coordinates": [ -122.933402784660288, 49.204920501016971 ] } },
+{ "type": "Feature", "properties": { "PARK": "Riverside Park", "StructureN": null }, "geometry": { "type": "Point", "coordinates": [ -122.933382284299981, 49.204769120842123 ] } },
+{ "type": "Feature", "properties": { "PARK": "Riverside Park", "StructureN": null }, "geometry": { "type": "Point", "coordinates": [ -122.933703723780582, 49.204782871593025 ] } },
+{ "type": "Feature", "properties": { "PARK": "Quayside Park", "StructureN": null }, "geometry": { "type": "Point", "coordinates": [ -122.92223710005841, 49.198228111568227 ] } },
+{ "type": "Feature", "properties": { "PARK": "Quayside Park", "StructureN": null }, "geometry": { "type": "Point", "coordinates": [ -122.922250386769207, 49.198555967069666 ] } },
+{ "type": "Feature", "properties": { "PARK": "Terry Hughes Park", "StructureN": null }, "geometry": { "type": "Point", "coordinates": [ -122.913091634349357, 49.221189531294741 ] } },
+{ "type": "Feature", "properties": { "PARK": "Terry Hughes Park", "StructureN": null }, "geometry": { "type": "Point", "coordinates": [ -122.912920965590558, 49.221129902640762 ] } },
+{ "type": "Feature", "properties": { "PARK": "Terry Hughes Park", "StructureN": null }, "geometry": { "type": "Point", "coordinates": [ -122.912937184956348, 49.220998063071718 ] } },
+{ "type": "Feature", "properties": { "PARK": "Westminster Pier Park", "StructureN": null }, "geometry": { "type": "Point", "coordinates": [ -122.905021017309252, 49.203422703364652 ] } },
+{ "type": "Feature", "properties": { "PARK": "Westminster Pier Park", "StructureN": null }, "geometry": { "type": "Point", "coordinates": [ -122.906523410105962, 49.202589021220902 ] } },
+{ "type": "Feature", "properties": { "PARK": "Quayside Park", "StructureN": null }, "geometry": { "type": "Point", "coordinates": [ -122.922227060720772, 49.198417066526247 ] } },
+{ "type": "Feature", "properties": { "PARK": "Old Schoolhouse Park", "StructureN": null }, "geometry": { "type": "Point", "coordinates": [ -122.933752068169554, 49.190831054042683 ] } },
+{ "type": "Feature", "properties": { "PARK": "Old Schoolhouse Park", "StructureN": null }, "geometry": { "type": "Point", "coordinates": [ -122.933698504025728, 49.190696789764779 ] } },
+{ "type": "Feature", "properties": { "PARK": "Red Boat Park", "StructureN": null }, "geometry": { "type": "Point", "coordinates": [ -122.927334224208423, 49.193116454966635 ] } },
+{ "type": "Feature", "properties": { "PARK": "Suhk Sagar Park", "StructureN": null }, "geometry": { "type": "Point", "coordinates": [ -122.940096207935326, 49.189300862658577 ] } },
+{ "type": "Feature", "properties": { "PARK": "Suhk Sagar Park", "StructureN": null }, "geometry": { "type": "Point", "coordinates": [ -122.939977494174201, 49.189280094695597 ] } }
+]
+}
