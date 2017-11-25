@@ -1,0 +1,24 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "TYPE": "Sports Field", "PARK": "Queen's Park", "ACTIVITIES": "Soccer;Lacrosse;Softball" }, "geometry": { "type": "Point", "coordinates": [ -122.904755987715646, 49.215329928829526 ] } },
+{ "type": "Feature", "properties": { "TYPE": "Sports Field", "PARK": "Queen's Park", "ACTIVITIES": "Soccer;Football;Lacrosse;Softball;Baseball" }, "geometry": { "type": "Point", "coordinates": [ -122.904923540324489, 49.212854904100055 ] } },
+{ "type": "Feature", "properties": { "TYPE": "Sports Field", "PARK": "Grimston Park", "ACTIVITIES": "Softball" }, "geometry": { "type": "Point", "coordinates": [ -122.943216826037002, 49.202451225154206 ] } },
+{ "type": "Feature", "properties": { "TYPE": "Sports Field", "PARK": "Hume Park", "ACTIVITIES": "Soccer;Rugby;Softball" }, "geometry": { "type": "Point", "coordinates": [ -122.889667755522837, 49.234281945970395 ] } },
+{ "type": "Feature", "properties": { "TYPE": "Sports Field", "PARK": "Simcoe Park", "ACTIVITIES": null }, "geometry": { "type": "Point", "coordinates": [ -122.916674534284752, 49.20368115312732 ] } },
+{ "type": "Feature", "properties": { "TYPE": "Sports Field", "PARK": "Ryall Park", "ACTIVITIES": "Softball" }, "geometry": { "type": "Point", "coordinates": [ -122.940756670768309, 49.184309048233885 ] } },
+{ "type": "Feature", "properties": { "TYPE": "Sports Field", "PARK": "Ryall Park", "ACTIVITIES": "Soccer;Football" }, "geometry": { "type": "Point", "coordinates": [ -122.940350002034251, 49.185836215810838 ] } },
+{ "type": "Feature", "properties": { "TYPE": "Sports Field", "PARK": "Centennial Community Center Grounds", "ACTIVITIES": "Soccer;Ruby" }, "geometry": { "type": "Point", "coordinates": [ -122.908985875293951, 49.22113855136368 ] } },
+{ "type": "Feature", "properties": { "TYPE": "Sports Field", "PARK": "Sapperton Park", "ACTIVITIES": "Soccer;Football;Softball" }, "geometry": { "type": "Point", "coordinates": [ -122.893390300205482, 49.227406436135468 ] } },
+{ "type": "Feature", "properties": { "TYPE": "Sports Field", "PARK": "Terry Hughes Park", "ACTIVITIES": "Soccer;Softball" }, "geometry": { "type": "Point", "coordinates": [ -122.912293856481838, 49.221522842693766 ] } },
+{ "type": "Feature", "properties": { "TYPE": "Sports Field", "PARK": "Mercer Stadium", "ACTIVITIES": "Soccer;Football;Softball" }, "geometry": { "type": "Point", "coordinates": [ -122.927633990790625, 49.216686320029758 ] } },
+{ "type": "Feature", "properties": { "TYPE": "Sports Field", "PARK": "Mercer Stadium", "ACTIVITIES": "Soccer;Football" }, "geometry": { "type": "Point", "coordinates": [ -122.928725155453122, 49.217531121607017 ] } },
+{ "type": "Feature", "properties": { "TYPE": "Sports Field", "PARK": "Mercer Stadium", "ACTIVITIES": "Soccer;Football;Lacrosse;Softball" }, "geometry": { "type": "Point", "coordinates": [ -122.927381598643251, 49.217676891596128 ] } },
+{ "type": "Feature", "properties": { "TYPE": "Sports Field", "PARK": "Moody Park", "ACTIVITIES": "Soccer;Softball" }, "geometry": { "type": "Point", "coordinates": [ -122.9272940714649, 49.211465178170393 ] } },
+{ "type": "Feature", "properties": { "TYPE": "Sports Field", "PARK": "Old Schoolhouse Park", "ACTIVITIES": "Soccer;" }, "geometry": { "type": "Point", "coordinates": [ -122.934388434529808, 49.190703848395948 ] } },
+{ "type": "Feature", "properties": { "TYPE": "Sports Field", "PARK": "Queen's Park", "ACTIVITIES": null }, "geometry": { "type": "Point", "coordinates": [ -122.903455822346871, 49.214377639788111 ] } },
+{ "type": "Feature", "properties": { "TYPE": "Sports Field", "PARK": "Queen's Park", "ACTIVITIES": "Soccer;Football;Lacrosse;Softball" }, "geometry": { "type": "Point", "coordinates": [ -122.903597098240681, 49.212494806445932 ] } }
+]
+}

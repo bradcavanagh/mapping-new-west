@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "NAME": "22nd St Skytrain Station", "Y": "49.199955", "X": "-122.948975", "ID": 16127, "ADDR_NUM": "2124", "ADDR_ROAD": "Seventh Ave", "CITY": "New Westminster" }, "geometry": { "type": "Point", "coordinates": [ -122.948974646369081, 49.199955384412227 ] } },
+{ "type": "Feature", "properties": { "NAME": "New Westminister Skytrain Station", "Y": "49.201347", "X": "-122.912009", "ID": 16128, "ADDR_NUM": "34", "ADDR_ROAD": "Eighth St", "CITY": "New Westminster" }, "geometry": { "type": "Point", "coordinates": [ -122.912008571094603, 49.20134672071503 ] } },
+{ "type": "Feature", "properties": { "NAME": "Columbia Skytrain Station", "Y": "49.204489", "X": "-122.905916", "ID": 16129, "ADDR_NUM": "425", "ADDR_ROAD": "Columbia St", "CITY": "New Westminster" }, "geometry": { "type": "Point", "coordinates": [ -122.905916284920906, 49.204489072247739 ] } },
+{ "type": "Feature", "properties": { "NAME": "Braid Skytrain Station", "Y": "49.231547", "X": "-122.8829", "ID": 16154, "ADDR_NUM": "81", "ADDR_ROAD": "Braid St", "CITY": "New Westminster" }, "geometry": { "type": "Point", "coordinates": [ -122.882899687931967, 49.231547258718358 ] } },
+{ "type": "Feature", "properties": { "NAME": "Sapperton Skytrain Station", "Y": "49.225301", "X": "-122.889654", "ID": 16155, "ADDR_NUM": "202", "ADDR_ROAD": "Keary St", "CITY": "New Westminster" }, "geometry": { "type": "Point", "coordinates": [ -122.889654336054448, 49.225301307571307 ] } }
+]
+}
