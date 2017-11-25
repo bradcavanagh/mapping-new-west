@@ -25,3 +25,8 @@ The New Westminster Open Data catalogue has GeoJSON files available, but unfortu
 2. Click the link to download the SHP file. Note that this will actually download a ZIP archive.
 3. Unzip the archive. This will create a bunch of other files.
 4. Run `ogr2ogr -f GeoJSON -t_srs crs:84 outfile.geojson infile.shp`. This will take the input SHP file (`infile.shp`) and create a GeoJSON file with the appropriate coordinate system (`outfile.geojson`).
+
+## Examples
+
+ * [Building Age](https://canspice.org/maps/age/)
+ * [Quick-and-dirty FSR](https://canspice.org/maps/fsr/)
