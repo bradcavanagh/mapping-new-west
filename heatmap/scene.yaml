@@ -1,0 +1,26 @@
+import: https://mapzen.com/carto/zinc-style/5/zinc-style.yaml
+
+# global:
+#   sdk_building_extrude: false
+
+sources:
+  accessible_washrooms:
+    type: GeoJSON
+    url: ../data/accessible-public-washrooms/accessible-public-washrooms.geojson
+  bus_stops:
+    type: GeoJSON
+    url: ../data/bus-stops/bus-stops.geojson
+  ev_stations:
+    type: GeoJSON
+    url: ../data/ev-stations/ev-stations.geojson
+  playgrounds:
+    type: GeoJSON
+    url: ../data/playgrounds/playgrounds.geojson
+
+layers:
+  playgrounds_layer:
+    data: { source: playgrounds }
+    draw:
+      points:
+        color: forestgreen
+        size: 5px
