@@ -4,4 +4,5 @@ phases:
   install:
     commands:
       - printenv
+      - git branch --contains ${CODEBUILD_SOURCE_VERSION}
 
